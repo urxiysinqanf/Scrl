@@ -54,6 +54,7 @@ const headers = [
     { id: 'Total gas spent', title: 'Total gas spent'}
 ]
 
+
 const apiUrl = "https://api.scrollscan.com/api"
 const marksApi = "https://kx58j6x5me.execute-api.us-east-1.amazonaws.com/scroll/bridge-balances?walletAddress="
 const marksApiProjects = "https://kx58j6x5me.execute-api.us-east-1.amazonaws.com/scroll/project-marks?walletAddress="
