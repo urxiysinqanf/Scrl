@@ -10,6 +10,8 @@ import { scroll } from 'viem/chains'
 import { createPublicClient, http, formatEther, parseAbi, formatUnits } from 'viem'
 import { cleanByChecker, getCountByChecker, getWalletFromDB, saveWalletToDB } from '../utils/db.js'
 
+
+
 const columns = [
     { name: 'n', color: 'green', alignment: "right"},
     { name: 'wallet', color: 'green', alignment: "right"},
