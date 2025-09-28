@@ -185,6 +185,8 @@ async function fetchBalances(wallets) {
         }
     }
 
+
+    
     wallets.map((wallet, index) => {
         let eth = formatEther(balanceResults[index].result)
         let usdt = usdtResults[index] ? parseFloat(formatUnits(usdtResults[index].result, 6)).toFixed(1) : 0
